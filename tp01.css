@@ -33,3 +33,11 @@ td:nth-child(2),
 td:nth-child(3) {
     text-align: right;
 }
+
+tbody tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}

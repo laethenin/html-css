@@ -1,0 +1,33 @@
+.todo {
+width: 300px;
+margin: 50px auto;
+background-color: darkblue;
+padding: 20px;
+border-radius: 5px;
+text-align: center;
+}
+
+.todo h1 {
+color: white;
+margin-top: 0;
+}
+
+.todo ul {
+list-style: none;     /* cette ligne sert à supprimer les puces de la liste */
+padding: 0;
+}
+
+.todo li {
+background-color: white;
+margin: 10px 0;
+padding: 12px;
+border-radius: 4px;
+cursor: pointer;     /* change la forme du curseur */
+transition: all 0.2s ease;
+}
+
+/* effets au survol de la souris */
+.todo li:hover {
+    background-color: beige;
+    font-weight: bold;
+}
